@@ -1,0 +1,87 @@
+/* Styles de base */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right, #83a4d4, #b6fbff);
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  /* Container principal */
+  .app {
+    text-align: center;
+    padding: 20px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    width: 100%;
+  }
+  
+  /* Titre de l'application */
+  .app h1 {
+    color: #4a90e2;
+    margin-bottom: 20px;
+  }
+  
+  /* Barre de recherche */
+  .search-bar {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .search-bar input {
+    padding: 10px;
+    width: 70%;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  
+  .search-bar button {
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    background: #4a90e2;
+    color: #fff;
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+  
+  .search-bar button:hover {
+    background: #357abd;
+  }
+  
+  /* Informations météo */
+  .weather-info {
+    background: #f7f9fc;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+  }
+  
+  .weather-info h2 {
+    color: #4a90e2;
+    margin-bottom: 10px;
+  }
+  
+  .weather-info p {
+    font-size: 1.1em;
+    margin: 5px 0;
+  }
+  
+  /* Message d'erreur */
+  .error {
+    color: #d9534f;
+    margin-bottom: 10px;
+  }
+  
